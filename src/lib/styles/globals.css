@@ -1,0 +1,82 @@
+/* Global Styling here */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.city-data {
+  display: inline-block;
+}
+
+.city-full-info,
+.city-main-info {
+  margin-left: 11px;
+  margin-top: -7px;
+}
+
+.marker-default:not(.expanded) .city-main-info {
+  display: flex;
+}
+
+.city-bullet:after {
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  background-color: #000;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  display: block;
+  content: "";
+}
+
+.city-name {
+  font-family: Roboto, Sans-Serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 4px 3px;
+  vertical-align: bottom;
+  text-align: center !important;
+  color: #fff;
+  line-height: 100%;
+}
+
+.city-name,
+.city-weather {
+  display: inline-block;
+}
+
+.city-weather {
+  font-family: Roboto, Sans-Serif;
+  font-size: 14px;
+  padding: 4px 3px;
+  line-height: 100%;
+  min-width: 36px;
+  text-align: center;
+  color: #fff;
+  background: #000;
+}
+
+.weather-very-hot {
+  background: #f56048;
+}
+
+.weather-hot {
+  background: #fbaa1b;
+}
+
+.weather-average {
+  background: #e8d024;
+}
+
+.weather-cold {
+  background: #60bdfa;
+}
+
+.weather-very-cold {
+  background: #1c71f2;
+}
+
+.weather-none {
+  background: grey;
+}
